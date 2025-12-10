@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gói Chụp | Tiệm Ảnh FLOP'</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/material_green.css">
+
+  <link rel="stylesheet" href="gia.css">
+</head>
+<body>
+
+<header id="header">
+  <div class="nav-content">
+    <a href="index.html" class="logo">TIỆM ẢNH FLOP'</a>
+    
+    <button id="menuToggle" class="menu-toggle"><i class="fas fa-bars"></i></button>
+    
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Trang Chủ</a>
+      <a href="about.html">Giới Thiệu</a>
+      <a href="gia.html" class="active">Gói Chụp</a>
+      <a href="contact.html">Liên hệ</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="services-header">
+    <h2>Bảng Giá Dịch Vụ</h2>
+    <p>Chọn dịch vụ bên dưới để xem chi tiết các gói</p>
+  </section>
+
+  <div class="service-list">
+    <div class="service-card" data-service="beauty">
+      <img src="assets/beauty.jpg" alt="Beauty">
+      <h3>Beauty / Gia Đình</h3>
+    </div>
+    <div class="service-card" data-service="wedding">
+      <img src="assets/6.jpg" alt="Cưới">
+      <h3>Phóng Sự Cưới</h3>
+    </div>
+    <div class="service-card" data-service="kyyeu">
+      <img src="assets/8.jpg" alt="Kỷ yếu">
+      <h3>Kỷ Yếu</h3>
+    </div>
+    <div class="service-card" data-service="concept">
+      <img src="assets/NDK06509.jpg" alt="Concept">
+      <h3>Concept</h3>
+    </div>
+  </div>
+
+  <div id="package-section" style="display: none;">
+    
+    <h3 id="selected-service-title">Các gói dịch vụ</h3>
+    
+    <div class="package-list" id="package-list"></div>
+
+    <div class="booking-zone">
+        <div class="calendar-wrapper">
+          <h4>Chọn ngày chụp mong muốn:</h4>
+          <div id="calendar"></div>
+        </div>
+
+        <div class="action-wrapper">
+          <div class="channel-select">
+            <label><input type="radio" name="channel" value="messenger" checked> <i class="fab fa-facebook-messenger"></i> Messenger</label>
+            <label><input type="radio" name="channel" value="zalo"> <i class="fas fa-comment"></i> Zalo</label>
+          </div>
+          <button id="bookBtn" disabled>Vui lòng chọn Gói & Ngày</button>
+        </div>
+    </div>
+
+  </div>
+</main>
+
+<footer>© 2025 FLOP' Studio | Hân hạnh đồng hành cùng bạn</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/vn.js"></script>
+<script src="gia.js"></script>
+
+</body>
+</html>
