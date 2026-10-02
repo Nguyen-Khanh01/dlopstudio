@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     kyyeu: [
       {
         name: "Gói Cơ Bản (Nửa Ngày)",
-        detail: "2 Thợ chụp<br>Gồm 2 Trang phục<br>Chụp tại trường hoặc studio",
+        detail: "2 Thợ chụp<br>Gồm 2 Trang phục: Áo Dài, Vest, Cử Nhân",
         price: "280k/Học sinh"
       },
       {
