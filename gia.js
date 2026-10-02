@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
       {
         name: "Gói Cơ Bản (Nửa Ngày)",
         detail: "2 Thợ chụp<br>Gồm 2 Trang phục<br>Chụp tại trường hoặc studio",
-        price: "250k/Học sinh"
+        price: "280k/Học sinh"
       },
       {
         name: "Gói Nâng Cao (Sáng + Chiều)",
@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
         price: "450k/Học sinh"
       },
       {
-        name: "Gói VIP (Full ngày + Tiệc)",
-        detail: "Full ekip quay chụp<br>Trang phục không giới hạn<br>Flycam + Photobooth",
-        price: "650k/Học sinh"
+        name: "Gói VIP (Full ngày )",
+        detail: "3 Thợ Chụp <br>Trang Phục: Cử Nhân, Áo Dài, Vest, Thanh Xuân<br>Trả toàn bộ File chỉnh sửa<br>Tặng Giấy, Chong Chóng, Pháo BQP<br> Mỗi Bạn 1 ảnh tập thể 15.21<br> GVCN 1 ảnh để bàn mika 25.38",
+        price: "550k/Học sinh"
       }
     ],
     concept: [
